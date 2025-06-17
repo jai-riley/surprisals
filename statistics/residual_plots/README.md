@@ -1,4 +1,4 @@
-When comparing the base models to the models with surprises added, very little is noticeably different.
+When comparing the base models to the models with surprisals added, very little is noticeably different.
 
 Q-Q plots: For all languages, the deviance residuals are touching the slope within theoretical 
 quantiles range [-0.75, 0.5] with slight deviations at these points. 
