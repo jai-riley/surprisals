@@ -1,0 +1,164 @@
+2025-05-20 13:04:10,484:__main__:INFO: Args: Namespace(train_file='RNNG-train.json', val_file='RNNG-val.json', train_from='', sp_model='', fixed_stack=True, strategy='top_down', w_dim=256, h_dim=256, num_layers=2, dropout=0.2, composition='lstm', not_swap_in_order_stack=False, batch_group='random', max_group_length_diff=20, group_sentence_size=1024, optimizer='adam', lr_scheduler=None, plateau_lr_decay=0.5, plateau_lr_patience=1, warmup_steps=10000, random_unk=False, batch_size=128, batch_token_size=15000, batch_action_size=45000, save_path='/localscratch/jairiley.61526289.0/rnng_pos.pt', num_epochs=10, min_epochs=8, lr=0.001, loss_normalize='batch', param_init=0, max_grad_norm=5.0, gpu=0, device='cuda', seed=3435, print_every=500, valid_every=-1, tensorboard_log_dir='', amp=False, early_stop=False, early_stop_patience=5)
+2025-05-20 13:04:17,401:__main__:INFO: Train: 79100 sents / 618 batches, Val: 8219 sents / 92 batches
+2025-05-20 13:04:17,402:__main__:INFO: Vocab size: 46
+2025-05-20 13:04:19,002:__main__:INFO: model architecture
+2025-05-20 13:04:19,003:__main__:INFO: FixedStackRNNG(
+  (action_criterion): CrossEntropyLoss()
+  (word_criterion): CrossEntropyLoss()
+  (dropout): Dropout(p=0.2, inplace=True)
+  (emb): Sequential(
+    (0): Embedding(46, 256, padding_idx=0)
+    (1): Dropout(p=0.2, inplace=True)
+  )
+  (rnng): RNNGCell(
+    (dropout): Dropout(p=0.2, inplace=True)
+    (nt_emb): Sequential(
+      (0): Embedding(26, 256)
+      (1): Dropout(p=0.2, inplace=True)
+    )
+    (stack_rnn): MultiLayerLSTMCell(
+      (lstm): ModuleList(
+        (0-1): 2 x LSTMCell(256, 256)
+      )
+      (dropout_layer): Dropout(p=0.2, inplace=True)
+    )
+    (output): Sequential(
+      (0): Dropout(p=0.2, inplace=True)
+      (1): Linear(in_features=256, out_features=256, bias=True)
+      (2): ReLU()
+    )
+    (composition): LSTMComposition(
+      (rnn): LSTM(256, 256, batch_first=True, bidirectional=True)
+      (output): Sequential(
+        (0): Dropout(p=0.2, inplace=True)
+        (1): Linear(in_features=512, out_features=256, bias=True)
+        (2): ReLU()
+      )
+    )
+    (initial_emb): Sequential(
+      (0): Embedding(1, 256)
+      (1): Dropout(p=0.2, inplace=True)
+    )
+  )
+  (vocab_mlp): Linear(in_features=256, out_features=46, bias=True)
+  (action_mlp): Linear(in_features=256, out_features=29, bias=True)
+)
+2025-05-20 13:04:19,003:__main__:INFO: Model total parameters: 2328651
+2025-05-20 13:04:19,004:__main__:INFO: --------------------------------
+2025-05-20 13:04:19,004:__main__:INFO: Checking training perplexity...
+2025-05-20 13:09:13,210:__main__:INFO: PPL: 32.426881, Loss: 36799.820294, ActionPPL: 28.050954, WordPPL: 47.310776
+2025-05-20 13:09:13,211:__main__:INFO: --------------------------------
+2025-05-20 13:09:13,211:__main__:INFO: Checking validation perplexity...
+2025-05-20 13:09:38,133:__main__:INFO: PPL: 32.424026, Loss: 25775.167896, ActionPPL: 28.048073, WordPPL: 47.209678
+2025-05-20 13:09:38,134:__main__:INFO: --------------------------------
+2025-05-20 13:09:38,135:__main__:INFO: Saving checkpoint to /localscratch/jairiley.61526289.0/rnng_pos.pt
+2025-05-20 13:09:38,152:__main__:INFO: Starting epoch 1
+2025-05-20 13:19:51,957:__main__:INFO: Epoch: 1, Batch: 500/618, LR: 0.0010, ActionPPL: 1.98, WordPPL: 3.09, PPL: 2.241546, LL: 4266016.305175781, |Param|: 156.04, E[batch size]: 128.0, Throughput: 104.27 examples/sec
+2025-05-20 13:22:17,665:__main__:INFO: Epoch: 1, Batch: 618/618, LR: 0.0010, ActionPPL: 1.92, WordPPL: 3.00, PPL: 2.169303, LL: 796308.3000488281, |Param|: 157.85, E[batch size]: 127.99352750809061, Throughput: 104.15 examples/sec
+2025-05-20 13:22:17,666:__main__:INFO: --------------------------------
+2025-05-20 13:22:17,666:__main__:INFO: Checking training perplexity...
+2025-05-20 13:27:25,597:__main__:INFO: PPL: 1.865163, Loss: 6593.615912, ActionPPL: 1.634531, WordPPL: 2.630820
+2025-05-20 13:27:25,613:__main__:INFO: --------------------------------
+2025-05-20 13:27:25,613:__main__:INFO: Checking validation perplexity...
+2025-05-20 13:27:51,755:__main__:INFO: PPL: 1.857277, Loss: 4586.997350, ActionPPL: 1.630844, WordPPL: 2.601345
+2025-05-20 13:27:51,756:__main__:INFO: --------------------------------
+2025-05-20 13:27:51,756:__main__:INFO: Saving checkpoint to /localscratch/jairiley.61526289.0/rnng_pos.pt
+2025-05-20 13:27:51,879:__main__:INFO: Starting epoch 2
+2025-05-20 13:38:07,073:__main__:INFO: Epoch: 2, Batch: 500/618, LR: 0.0010, ActionPPL: 1.64, WordPPL: 2.61, PPL: 1.866102, LL: 3301256.4243164062, |Param|: 164.99, E[batch size]: 128.0, Throughput: 104.03 examples/sec
+2025-05-20 13:40:31,801:__main__:INFO: Epoch: 2, Batch: 618/618, LR: 0.0010, ActionPPL: 1.64, WordPPL: 2.61, PPL: 1.863115, LL: 766418.3803710938, |Param|: 166.48, E[batch size]: 127.99352750809061, Throughput: 104.09 examples/sec
+2025-05-20 13:40:31,801:__main__:INFO: --------------------------------
+2025-05-20 13:40:31,801:__main__:INFO: Checking training perplexity...
+2025-05-20 13:45:39,714:__main__:INFO: PPL: 1.827139, Loss: 6375.746652, ActionPPL: 1.614744, WordPPL: 2.521271
+2025-05-20 13:45:39,717:__main__:INFO: --------------------------------
+2025-05-20 13:45:39,717:__main__:INFO: Checking validation perplexity...
+2025-05-20 13:46:05,823:__main__:INFO: PPL: 1.820986, Loss: 4440.793861, ActionPPL: 1.612304, WordPPL: 2.496243
+2025-05-20 13:46:05,824:__main__:INFO: --------------------------------
+2025-05-20 13:46:05,824:__main__:INFO: Saving checkpoint to /localscratch/jairiley.61526289.0/rnng_pos.pt
+2025-05-20 13:46:05,952:__main__:INFO: Starting epoch 3
+2025-05-20 13:56:14,604:__main__:INFO: Epoch: 3, Batch: 500/618, LR: 0.0010, ActionPPL: 1.62, WordPPL: 2.56, PPL: 1.843177, LL: 3230622.4411621094, |Param|: 173.06, E[batch size]: 128.0, Throughput: 105.15 examples/sec
+2025-05-20 13:58:37,453:__main__:INFO: Epoch: 3, Batch: 618/618, LR: 0.0010, ActionPPL: 1.62, WordPPL: 2.56, PPL: 1.842186, LL: 763203.3793945312, |Param|: 174.57, E[batch size]: 127.99352750809061, Throughput: 105.26 examples/sec
+2025-05-20 13:58:37,512:__main__:INFO: --------------------------------
+2025-05-20 13:58:37,512:__main__:INFO: Checking training perplexity...
+2025-05-20 14:03:44,916:__main__:INFO: PPL: 1.815759, Loss: 6309.659407, ActionPPL: 1.604903, WordPPL: 2.504689
+2025-05-20 14:03:44,939:__main__:INFO: --------------------------------
+2025-05-20 14:03:44,940:__main__:INFO: Checking validation perplexity...
+2025-05-20 14:04:10,725:__main__:INFO: PPL: 1.811622, Loss: 4402.594753, ActionPPL: 1.603919, WordPPL: 2.483784
+2025-05-20 14:04:10,726:__main__:INFO: --------------------------------
+2025-05-20 14:04:10,726:__main__:INFO: Saving checkpoint to /localscratch/jairiley.61526289.0/rnng_pos.pt
+2025-05-20 14:04:10,849:__main__:INFO: Starting epoch 4
+2025-05-20 14:14:16,250:__main__:INFO: Epoch: 4, Batch: 500/618, LR: 0.0010, ActionPPL: 1.62, WordPPL: 2.54, PPL: 1.831974, LL: 3200313.9787597656, |Param|: 180.83, E[batch size]: 128.0, Throughput: 105.72 examples/sec
+2025-05-20 14:16:39,855:__main__:INFO: Epoch: 4, Batch: 618/618, LR: 0.0010, ActionPPL: 1.62, WordPPL: 2.54, PPL: 1.830724, LL: 752710.6853027344, |Param|: 182.13, E[batch size]: 127.99352750809061, Throughput: 105.61 examples/sec
+2025-05-20 14:16:39,855:__main__:INFO: --------------------------------
+2025-05-20 14:16:39,856:__main__:INFO: Checking training perplexity...
+2025-05-20 14:21:43,566:__main__:INFO: PPL: 1.805908, Loss: 6252.116191, ActionPPL: 1.599666, WordPPL: 2.477045
+2025-05-20 14:21:43,567:__main__:INFO: --------------------------------
+2025-05-20 14:21:43,568:__main__:INFO: Checking validation perplexity...
+2025-05-20 14:22:09,161:__main__:INFO: PPL: 1.804423, Loss: 4373.092860, ActionPPL: 1.601405, WordPPL: 2.458488
+2025-05-20 14:22:09,161:__main__:INFO: --------------------------------
+2025-05-20 14:22:09,162:__main__:INFO: Saving checkpoint to /localscratch/jairiley.61526289.0/rnng_pos.pt
+2025-05-20 14:22:09,288:__main__:INFO: Starting epoch 5
+2025-05-20 14:32:06,225:__main__:INFO: Epoch: 5, Batch: 500/618, LR: 0.0010, ActionPPL: 1.61, WordPPL: 2.52, PPL: 1.823266, LL: 3170095.4645996094, |Param|: 187.73, E[batch size]: 128.0, Throughput: 107.21 examples/sec
+2025-05-20 14:34:27,570:__main__:INFO: Epoch: 5, Batch: 618/618, LR: 0.0010, ActionPPL: 1.61, WordPPL: 2.52, PPL: 1.822761, LL: 754434.1311035156, |Param|: 188.93, E[batch size]: 127.99352750809061, Throughput: 107.14 examples/sec
+2025-05-20 14:34:27,571:__main__:INFO: --------------------------------
+2025-05-20 14:34:27,571:__main__:INFO: Checking training perplexity...
+2025-05-20 14:39:27,033:__main__:INFO: PPL: 1.799543, Loss: 6214.769018, ActionPPL: 1.594554, WordPPL: 2.466193
+2025-05-20 14:39:27,034:__main__:INFO: --------------------------------
+2025-05-20 14:39:27,034:__main__:INFO: Checking validation perplexity...
+2025-05-20 14:39:52,375:__main__:INFO: PPL: 1.800100, Loss: 4355.322991, ActionPPL: 1.597460, WordPPL: 2.453032
+2025-05-20 14:39:52,376:__main__:INFO: --------------------------------
+2025-05-20 14:39:52,376:__main__:INFO: Saving checkpoint to /localscratch/jairiley.61526289.0/rnng_pos.pt
+2025-05-20 14:39:52,501:__main__:INFO: Starting epoch 6
+2025-05-20 14:49:47,893:__main__:INFO: Epoch: 6, Batch: 500/618, LR: 0.0010, ActionPPL: 1.61, WordPPL: 2.51, PPL: 1.817215, LL: 3155185.755859375, |Param|: 194.08, E[batch size]: 128.0, Throughput: 107.49 examples/sec
+2025-05-20 14:52:09,454:__main__:INFO: Epoch: 6, Batch: 618/618, LR: 0.0010, ActionPPL: 1.61, WordPPL: 2.51, PPL: 1.817119, LL: 749078.3247070312, |Param|: 195.26, E[batch size]: 127.99352750809061, Throughput: 107.33 examples/sec
+2025-05-20 14:52:09,455:__main__:INFO: --------------------------------
+2025-05-20 14:52:09,455:__main__:INFO: Checking training perplexity...
+2025-05-20 14:57:09,256:__main__:INFO: PPL: 1.794320, Loss: 6184.019288, ActionPPL: 1.591240, WordPPL: 2.453745
+2025-05-20 14:57:09,257:__main__:INFO: --------------------------------
+2025-05-20 14:57:09,257:__main__:INFO: Checking validation perplexity...
+2025-05-20 14:57:34,602:__main__:INFO: PPL: 1.797222, Loss: 4343.469837, ActionPPL: 1.595296, WordPPL: 2.447563
+2025-05-20 14:57:34,603:__main__:INFO: --------------------------------
+2025-05-20 14:57:34,603:__main__:INFO: Saving checkpoint to /localscratch/jairiley.61526289.0/rnng_pos.pt
+2025-05-20 14:57:34,731:__main__:INFO: Starting epoch 7
+2025-05-20 15:07:31,815:__main__:INFO: Epoch: 7, Batch: 500/618, LR: 0.0010, ActionPPL: 1.60, WordPPL: 2.49, PPL: 1.811545, LL: 3143039.6721191406, |Param|: 200.14, E[batch size]: 128.0, Throughput: 107.19 examples/sec
+2025-05-20 15:09:52,875:__main__:INFO: Epoch: 7, Batch: 618/618, LR: 0.0010, ActionPPL: 1.60, WordPPL: 2.50, PPL: 1.812517, LL: 744645.8315429688, |Param|: 201.24, E[batch size]: 127.99352750809061, Throughput: 107.16 examples/sec
+2025-05-20 15:09:52,875:__main__:INFO: --------------------------------
+2025-05-20 15:09:52,875:__main__:INFO: Checking training perplexity...
+2025-05-20 15:14:52,520:__main__:INFO: PPL: 1.789318, Loss: 6154.491827, ActionPPL: 1.587588, WordPPL: 2.443756
+2025-05-20 15:14:52,521:__main__:INFO: --------------------------------
+2025-05-20 15:14:52,521:__main__:INFO: Checking validation perplexity...
+2025-05-20 15:15:17,794:__main__:INFO: PPL: 1.794231, Loss: 4331.128134, ActionPPL: 1.593099, WordPPL: 2.441668
+2025-05-20 15:15:17,795:__main__:INFO: --------------------------------
+2025-05-20 15:15:17,795:__main__:INFO: Saving checkpoint to /localscratch/jairiley.61526289.0/rnng_pos.pt
+2025-05-20 15:15:17,927:__main__:INFO: Starting epoch 8
+2025-05-20 15:25:23,482:__main__:INFO: Epoch: 8, Batch: 500/618, LR: 0.0010, ActionPPL: 1.60, WordPPL: 2.49, PPL: 1.808704, LL: 3136908.331298828, |Param|: 205.93, E[batch size]: 128.0, Throughput: 105.69 examples/sec
+2025-05-20 15:27:49,289:__main__:INFO: Epoch: 8, Batch: 618/618, LR: 0.0010, ActionPPL: 1.60, WordPPL: 2.49, PPL: 1.808689, LL: 736956.9736328125, |Param|: 206.89, E[batch size]: 127.99352750809061, Throughput: 105.28 examples/sec
+2025-05-20 15:27:49,289:__main__:INFO: --------------------------------
+2025-05-20 15:27:49,289:__main__:INFO: Checking training perplexity...
+2025-05-20 15:33:01,189:__main__:INFO: PPL: 1.785067, Loss: 6129.333741, ActionPPL: 1.585128, WordPPL: 2.432700
+2025-05-20 15:33:01,201:__main__:INFO: --------------------------------
+2025-05-20 15:33:01,201:__main__:INFO: Checking validation perplexity...
+2025-05-20 15:33:26,637:__main__:INFO: PPL: 1.791557, Loss: 4320.076003, ActionPPL: 1.592276, WordPPL: 2.431874
+2025-05-20 15:33:26,637:__main__:INFO: --------------------------------
+2025-05-20 15:33:26,638:__main__:INFO: Saving checkpoint to /localscratch/jairiley.61526289.0/rnng_pos.pt
+2025-05-20 15:33:26,766:__main__:INFO: Starting epoch 9
+2025-05-20 15:43:30,772:__main__:INFO: Epoch: 9, Batch: 500/618, LR: 0.0010, ActionPPL: 1.60, WordPPL: 2.48, PPL: 1.805986, LL: 3123174.072998047, |Param|: 211.41, E[batch size]: 128.0, Throughput: 105.96 examples/sec
+2025-05-20 15:45:53,266:__main__:INFO: Epoch: 9, Batch: 618/618, LR: 0.0010, ActionPPL: 1.60, WordPPL: 2.48, PPL: 1.805430, LL: 738901.4392089844, |Param|: 212.32, E[batch size]: 127.99352750809061, Throughput: 105.96 examples/sec
+2025-05-20 15:45:53,266:__main__:INFO: --------------------------------
+2025-05-20 15:45:53,266:__main__:INFO: Checking training perplexity...
+2025-05-20 15:50:56,911:__main__:INFO: PPL: 1.782540, Loss: 6114.346700, ActionPPL: 1.583098, WordPPL: 2.428397
+2025-05-20 15:50:56,913:__main__:INFO: --------------------------------
+2025-05-20 15:50:56,913:__main__:INFO: Checking validation perplexity...
+2025-05-20 15:51:23,041:__main__:INFO: PPL: 1.789880, Loss: 4313.140690, ActionPPL: 1.590704, WordPPL: 2.429925
+2025-05-20 15:51:23,042:__main__:INFO: --------------------------------
+2025-05-20 15:51:23,042:__main__:INFO: Saving checkpoint to /localscratch/jairiley.61526289.0/rnng_pos.pt
+2025-05-20 15:51:23,157:__main__:INFO: Starting epoch 10
+2025-05-20 16:01:31,072:__main__:INFO: Epoch: 10, Batch: 500/618, LR: 0.0010, ActionPPL: 1.60, WordPPL: 2.47, PPL: 1.802421, LL: 3114965.4880371094, |Param|: 216.48, E[batch size]: 128.0, Throughput: 105.28 examples/sec
+2025-05-20 16:03:53,345:__main__:INFO: Epoch: 10, Batch: 618/618, LR: 0.0010, ActionPPL: 1.60, WordPPL: 2.47, PPL: 1.802574, LL: 736761.4104003906, |Param|: 217.35, E[batch size]: 127.99352750809061, Throughput: 105.44 examples/sec
+2025-05-20 16:03:53,345:__main__:INFO: --------------------------------
+2025-05-20 16:03:53,345:__main__:INFO: Checking training perplexity...
+2025-05-20 16:08:56,520:__main__:INFO: PPL: 1.778506, Loss: 6090.384664, ActionPPL: 1.580319, WordPPL: 2.419697
+2025-05-20 16:08:56,544:__main__:INFO: --------------------------------
+2025-05-20 16:08:56,544:__main__:INFO: Checking validation perplexity...
+2025-05-20 16:09:21,857:__main__:INFO: PPL: 1.788891, Loss: 4309.043607, ActionPPL: 1.589938, WordPPL: 2.428134
+2025-05-20 16:09:21,860:__main__:INFO: --------------------------------
+2025-05-20 16:09:21,860:__main__:INFO: Saving checkpoint to /localscratch/jairiley.61526289.0/rnng_pos.pt

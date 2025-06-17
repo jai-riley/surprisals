@@ -1,0 +1,126 @@
+very/RB few/JJ issues/NNS can/MD bring/VB together/RB lawmakers/NNS of/IN both/DT parties/NNS ./. 
+animal/JJ cruelty/NN is/VBZ CD/CD of/IN them/PRP ./. 
+koalas/NNP have/VBP been/VBN running/VBG into/IN hard/JJ times/NNS ./. 
+they/PRP have/VBP suffered/VBN for/IN years/NNS from/IN habitat/JJ destruction/NN ,/, dog/NN attacks/NNS ,/, automobile/NN accidents/NNS ./. 
+pancreatic/JJ cancer/NN has/VBZ a/DT bad/JJ reputation/NN ./. 
+it/PRP is/VBZ a/DT terrible/JJ disease/NN ,/, but/CC most/JJS people/NNS do/VBP not/RB realize/VB there/EX are/VBP ways/NNS that/IN early/JJ detection/NN can/MD help/VB ./. 
+some/DT nutrition/NN experts/NNS say/VBP eggs/NNS are/VBP good/JJ for/IN you/PRP ,/, even/RB though/IN they/PRP are/VBP high/JJ in/IN cholesterol/NN ./. 
+others/NNS are/VBP sure/JJ they/PRP are/VBP bad/JJ ./. 
+experts/NNS generally/RB agree/VBP that/IN watching/VBG a/DT lot/NN of/IN television/NN is/VBZ bad/JJ for/IN children/NNS ./. 
+now/RB a/DT new/JJ study/NN suggests/VBZ it/PRP may/MD not/RB be/VB very/RB good/JJ for/IN adults/NNS ,/, either/RB ./. 
+legislators/NNS and/CC gun/NN safety/NN advocates/NNS often/RB focus/VBP on/IN how/WRB guns/NNS are/VBP purchased/VBN ./. 
+but/CC many/JJ lives/NNS could/MD be/VB saved/VBN ,/, especially/RB among/IN children/NNS ,/, if/IN they/PRP looked/VBD more/RBR at/IN how/WRB they/PRP are/VBP stored/VBN ./. 
+in/IN general/JJ ,/, any/DT exercise/NN improves/VBZ our/PRP$ health/NN ./. 
+but/CC a/DT wealth/NN of/IN recent/JJ science/NN and/CC personal/JJ experience/NN indicate/VBP that/IN different/JJ people/NNS can/MD respond/VB to/IN similar/JJ exercise/NN routines/NNS in/IN different/JJ ways/NNS ./. 
+when/WRB new/JJ breast/NN cancer/NN drugs/NNS come/VBP to/IN market/NN ,/, there/EX is/VBZ little/JJ data/NNS to/TO indicate/VB whether/IN they/PRP are/VBP safe/JJ or/CC effective/JJ in/IN men/NNS ./. 
+some/DT new/JJ drugs/NNS are/VBP approved/VBN only/RB for/IN women/NNS ./. 
+an/DT extensive/JJ study/NN confirms/VBZ that/IN red/JJ meat/NN might/MD not/RB be/VB that/RB bad/JJ for/IN you/PRP ./. 
+but/CC it/PRP is/VBZ bad/JJ for/IN the/DT planet/NN ,/, with/IN chicken/NN and/CC pork/NN less/RBR harmful/JJ than/IN beef/NN ./. 
+the/DT ground/NN around/IN the/DT building/NN slopes/NNS away/RB ./. 
+that/DT allows/VBZ the/DT classroom/NN windows/VBZ to/TO be/VB low/JJ enough/RB for/IN children/NNS to/TO see/VB out/RP while/IN still/RB being/VBG high/JJ above/IN the/DT ground/NN ./. 
+farmers/NNS and/CC plant/NN breeders/NNS are/VBP in/IN a/DT race/NN against/IN time/NN ./. 
+the/DT world/NN population/NN is/VBZ growing/VBG rapidly/RB ,/, requiring/VBG ever/RB more/JJR food/NN ,/, but/CC the/DT amount/NN of/IN cultivable/JJ land/NN is/VBZ limited/JJ ./. 
+CD/CD benefit/NN of/IN discovery/NN is/VBZ that/IN you/PRP get/VBP to/TO name/VB the/DT things/NNS you/PRP discovered/VBD ./. 
+astronomy/NN is/VBZ blessed/VBN in/IN this/DT regard/NN ./. 
+the/DT overwhelming/JJ majority/NN of/IN snails/NNS live/VBP in/IN shells/NNS that/WDT coil/NN to/IN the/DT right/NN ./. 
+but/CC occasionally/RB some/DT are/VBP born/VBN with/IN shells/NNS that/WDT turn/VBP the/DT other/JJ way/NN ./. 
+california/NNP has/VBZ positioned/VBN itself/PRP as/IN a/DT leader/NN in/IN the/DT fight/NN against/IN climate/NN change/NN ./. 
+it/PRP leads/VBZ the/DT nation/NN by/IN far/RB in/IN solar/JJ power/NN ./. 
+climate/NN change/NN will/MD inevitably/RB transform/VB the/DT way/NN the/DT world/NN produces/VBZ goods/NNS ./. 
+farmers/NNS who/WP produce/VBP wine/NN grapes/NNS ,/, an/DT especially/RB sensitive/JJ crop/NN ,/, are/VBP already/RB feeling/VBG those/DT effects/NNS ./. 
+the/DT many/JJ whiskeys/NNS of/IN japan/NNP are/VBP complex/JJ and/CC often/RB expensive/JJ ./. 
+learning/VBG about/IN them/PRP can/MD be/VB a/DT challenge/NN ./. 
+great/JJ snow/NN conditions/NNS can/MD make/VB a/DT ski/NN trip/NN magical/JJ ./. 
+skiers/NNS can/MD weight/VB the/DT odds/NNS in/IN their/PRP$ favor/NN by/IN picking/VBG their/PRP$ destinations/NNS according/VBG to/IN the/DT time/NN of/IN winter/NN ./. 
+earth/NN is/VBZ warming/VBG ,/, and/CC we/PRP know/VBP why/WRB ./. 
+light/NN is/VBZ reflected/VBN and/CC absorbed/VBN by/IN clouds/NNS ,/, air/NN ,/, oceans/NNS ,/, ice/NN and/CC land/NN ./. 
+nobody/NN ever/RB really/RB tells/VBZ you/PRP how/WRB to/TO breathe/VB ./. 
+you/PRP just/RB know/VBP how/WRB to/TO do/VB it/PRP ./. 
+imagine/VB an/DT animal/NN that/WDT looks/VBZ like/IN a/DT dinosaur/NN ,/, and/CC you/PRP probably/RB will/MD not/RB imagine/VB a/DT bat/NN ./. 
+but/CC that/DT may/MD change/VB ./. 
+video/NN games/NNS work/VBP hard/RB to/TO hook/VB players/NNS ./. 
+designers/NNS use/VBP predictive/JJ algorithms/NNS and/CC principles/NNS of/IN behavioral/JJ economics/NNS to/TO keep/VB fans/NNS engaged/VBN ./. 
+americans/NNS are/VBP feeling/VBG better/JJR about/IN the/DT economy/NN ./. 
+or/CC at/IN least/JJS republicans/NNPS are/VBP ./. 
+parasites/NNS are/VBP a/DT huge/JJ force/NN in/IN the/DT natural/JJ world/NN ./. 
+for/IN the/DT most/JJS part/NN they/PRP simply/RB feed/VBP on/IN their/PRP$ hosts/NNS ./. 
+there/EX should/MD be/VB no/DT question/NN that/IN autistic/JJ people/NNS need/VBP and/CC value/VB social/JJ connections/NNS ./. 
+we/PRP all/DT do/VBP ./. 
+once/RB upon/IN a/DT time/NN ,/, the/DT sky/NN was/VBD everything/NN above/IN the/DT earth/NN ,/, which/WDT lay/VBD at/IN the/DT center/NN of/IN human/JJ experience/NN ./. 
+the/DT sky/NN was/VBD the/DT place/NN of/IN gods/NNS ./. 
+the/DT abundance/NN of/IN uncontrolled/JJ case/NN studies/NNS can/MD give/VB an/DT impression/NN that/IN a/DT single/JJ dietary/JJ item/NN ,/, like/IN juice/NN ,/, is/VBZ linked/VBN with/IN obesity/NN ./. 
+but/CC they/PRP cannot/MD determine/VB cause/NN and/CC effect/NN ./. 
+americans/NNS are/VBP having/VBG fewer/JJR babies/NNS ./. 
+at/IN first/RB ,/, researchers/NNS thought/VBD the/DT declining/VBG fertility/NN rate/NN was/VBD because/IN of/IN the/DT recession/NN ,/, but/CC it/PRP kept/VBD falling/VBG even/RB as/IN the/DT economy/NN recovered/VBD ./. 
+new/JJ research/NN suggests/VBZ that/IN more/JJR money/NN really/RB does/VBZ lead/VB to/IN a/DT more/RBR satisfying/JJ life/NN ./. 
+surveys/NNS of/IN thousands/NNS of/IN swedish/JJ lottery/NN winners/NNS have/VBP provided/VBN persuasive/JJ evidence/NN of/IN this/DT truth/NN ./. 
+milan/NNP has/VBZ no/DT sea/NN ./. 
+it/PRP has/VBZ no/DT river/NN or/CC lake/NN ,/, just/RB a/DT few/JJ ebbing/VBG canals/NNS ./. 
+morality/NN exists/VBZ only/RB because/IN we/PRP evolved/VBD the/DT capacity/NN to/TO empathize/VB ./. 
+and/CC empathy/NN provides/VBZ the/DT best/JJS guide/NN to/IN moral/JJ action/NN ./. 
+story/NN creates/VBZ culture/NN ./. 
+it/PRP teaches/VBZ us/PRP to/TO feel/VB ,/, think/VB and/CC behave/VB in/IN ways/NNS generally/RB approved/VBN of/IN by/IN those/DT around/IN us/PRP ./. 
+hospitals/NNS are/VBP often/RB thought/VBN of/IN as/IN the/DT hubs/NNS of/IN our/PRP$ health/NN care/NN system/NN ./. 
+but/CC hospital/NN closings/NNS are/VBP rising/VBG ,/, particularly/RB in/IN some/DT types/NNS of/IN communities/NNS ./. 
+CD/CD sexes/NNS have/VBP never/RB been/VBN enough/JJ to/TO describe/VB human/JJ variety/NN ./. 
+not/RB in/IN biblical/JJ times/NNS and/CC not/RB now/RB ./. 
+the/DT biggest/JJS racial/JJ preferences/NNS in/IN this/DT country/NN have/VB nothing/NN to/TO do/VB with/IN college/NN admissions/NNS or/CC job/NN offers/NNS ./. 
+they/PRP have/VBP to/TO do/VB with/IN political/JJ power/NN ./. 
+businesses/NNS can/MD deliver/VB everything/NN on/IN demand/NN ,/, from/IN dinner/NN to/IN dry/JJ cleaning/NN ./. 
+some/DT will/MD even/RB show/VB up/RP at/IN your/PRP$ door/NN to/TO give/VB you/PRP cupcakes/NNS or/CC walk/VB your/PRP$ dog/NN ./. 
+planning/VBG for/IN vacation/NN is/VBZ fun/JJ ./. 
+we/PRP make/VBP lists/NNS of/IN clothes/NNS to/TO pack/VB and/CC museums/NNS to/TO visit/VB ,/, anticipating/VBG the/DT relaxation/NN and/CC fun/NN to/TO come/VB ./. 
+certain/JJ types/NNS of/IN wine/NN seem/VBP incapable/JJ of/IN winning/VBG popular/JJ acceptance/NN ./. 
+riesling/NN is/VBZ CD/CD ,/, particularly/RB in/IN its/PRP$ moderately/RB sweet/JJ form/NN ./. 
+bankers/NNS kept/VBD their/PRP$ name/NN tags/NNS obscured/VBN behind/IN ties/NNS ./. 
+many/JJ tried/VBD to/TO keep/VB a/DT low/JJ profile/NN and/CC avoided/VBD talking/VBG to/IN the/DT news/NN media/NNS ./. 
+hollywood/NNP executives/NNS are/VBP not/RB so/RB different/JJ from/IN the/DT stars/NNS they/PRP employ/VBP ./. 
+they/PRP want/VBP to/TO be/VB seen/VBN in/IN the/DT right/JJ booths/NNS at/IN the/DT right/JJ restaurants/NNS ./. 
+the/DT more/RBR we/PRP learn/VBP about/IN how/WRB people/NNS really/RB think/VBP ,/, the/DT more/RBR we/PRP must/MD rethink/VB economic/JJ theory/NN ./. 
+changes/NNS in/IN fundamental/JJ beliefs/NNS play/VBP a/DT major/JJ role/NN in/IN the/DT fluctuations/NNS of/IN the/DT economy/NN ./. 
+history/NN suggests/VBZ that/IN the/DT world/NN is/VBZ about/RB due/JJ for/IN another/DT financial/JJ crisis/NN ./. 
+CD/CD of/IN the/DT places/NNS it/PRP might/MD start/VB ,/, according/VBG to/IN a/DT growing/VBG number/NN of/IN indicators/NNS ,/, is/VBZ italy/NNP ./. 
+few/JJ doubt/VBP that/IN energy/NN has/VBZ improved/VBN lives/NNS and/CC enabled/VBD human/JJ progress/NN ./. 
+yet/CC CD/CD of/IN the/DT biggest/JJS challenges/NNS facing/VBG the/DT world/NN is/VBZ the/DT polarized/JJ debate/NN over/IN the/DT future/NN of/IN energy/NN ./. 
+dance/NN is/VBZ about/IN change/NN ./. 
+the/DT body/NN keeps/VBZ altering/VBG its/PRP$ shape/NN while/IN we/PRP watch/VBP it/PRP move/VB ./. 
+plants/NNS have/VBP no/DT eyes/NNS ,/, no/DT ears/NNS ,/, no/DT mouth/NN and/CC no/DT hands/NNS ./. 
+they/PRP do/VBP not/RB have/VB a/DT brain/NN or/CC a/DT nervous/JJ system/NN ./. 
+there/EX are/VBP many/JJ more/JJR gorillas/NNS and/CC chimpanzees/NNS than/IN previously/RB believed/VBN ,/, new/JJ research/NN finds/VBZ ./. 
+nonetheless/RB ,/, their/PRP$ numbers/NNS are/VBP rapidly/RB declining/VBG ./. 
+forests/NNS are/VBP disappearing/VBG ./. 
+maps/NNS show/VBP shrinking/VBG woodlands/NNS all/RB over/IN the/DT world/NN ./. 
+a/DT cowboy/NN walks/VBZ into/IN a/DT bar/NN ./. 
+or/CC more/RBR specifically/RB ,/, a/DT nigerian/JJ immigrant/NN grad/JJ student/NN in/IN a/DT cowboy/NN hat/NN walks/VBZ into/IN a/DT bar/NN in/IN oklahoma/NNP ./. 
+CD/CD man/NN vanished/VBD diving/NN at/IN midnight/NN ./. 
+another/DT was/VBD attacked/VBN by/IN a/DT great/JJ white/JJ shark/NN in/IN deep/JJ water/NN ./. 
+student/NN loans/NNS are/VBP central/JJ to/IN financing/VBG college/NN educations/NNS ,/, yet/CC millions/NNS of/IN borrowers/NNS are/VBP in/IN default/NN ./. 
+that/DT is/VBZ clear/JJ evidence/NN that/IN the/DT system/NN is/VBZ in/IN dire/JJ need/NN of/IN improvement/NN ./. 
+people/NNS seem/VBP to/TO be/VB more/RBR worried/JJ than/IN ever/RB about/IN stress/NN ./. 
+we/PRP hear/VBP that/IN stress/NN can/MD lead/VB to/IN everything/NN from/IN depression/NN to/IN cancer/NN ./. 
+music/NN can/MD transport/VB us/PRP back/RB in/IN time/NN or/CC help/VB usher/JJ in/IN new/JJ ways/NNS of/IN thinking/NN ./. 
+it/PRP can/MD capture/VB a/DT historical/JJ moment/NN or/CC offer/VB an/DT escape/NN from/IN the/DT world/NN around/IN us/PRP ./. 
+the/DT laws/NNS that/WDT authorize/VBP medical/JJ aid/NN in/IN dying/NN have/VBP worked/VBN exactly/RB as/IN intended/VBN ,/, the/DT evidence/NN shows/VBZ ./. 
+they/PRP have/VBP benefited/VBN dying/VBG patients/NNS and/CC their/PRP$ families/NNS without/IN causing/VBG any/DT harm/NN to/IN anyone/NN ./. 
+israel/NNP cannot/MD define/VB a/DT jew/NNP ./. 
+and/CC the/DT more/RBR it/PRP attempts/VBZ to/TO do/VB so/RB ,/, the/DT more/RBR obvious/JJ that/WDT becomes/VBZ ./. 
+corporate/JJ tax/NN cuts/NNS will/MD put/VB billions/NNS of/IN dollars/NNS back/RB in/IN the/DT hands/NNS of/IN businesses/NNS this/DT year/NN ./. 
+naturally/RB ,/, people/NNS want/VBP to/TO know/VB how/WRB those/DT businesses/NNS will/MD spend/VB it/PRP ./. 
+florida/NNP ,/, it/PRP seems/VBZ ,/, has/VBZ always/RB been/VBN a/DT popular/JJ destination/NN ./. 
+even/RB the/DT first/JJ known/VBN americans/NNPS gravitated/VBD to/IN the/DT state/NN ./. 
+when/WRB early/JJ humans/NNS discovered/VBD how/WRB to/TO build/VB fires/NNS ,/, life/NN became/VBD much/RB easier/JJR in/IN many/JJ regards/NNS ./. 
+they/PRP huddled/VBD around/IN fire/NN for/IN warmth/NN ,/, light/NN and/CC protection/NN ./. 
+for/IN most/JJS of/IN human/JJ history/NN ,/, nobody/NN ate/VBD a/DT vegetable/NN for/IN pleasure/NN ./. 
+after/RB all/RB ,/, vegetables/NNS have/VBP no/DT evolutionary/JJ imperative/NN to/TO be/VB delicious/JJ ./. 
+animals/NNS around/IN the/DT world/NN are/VBP on/IN the/DT move/NN ./. 
+so/RB are/VBP their/PRP$ parasites/NNS ./. 
+gifts/NNS are/VBP often/RB left/VBN on/IN front/JJ row/NN seats/NNS at/IN fashion/NN shows/NNS for/IN guests/NNS ./. 
+rarely/RB ,/, however/RB ,/, are/VBP they/PRP placed/VBN on/IN every/DT seat/NN ./. 
+trying/VBG to/TO figure/VB out/RP why/WRB humans/NNS cry/VBP is/VBZ exhausting/JJ ./. 
+we/PRP cry/VBP about/IN death/NN ,/, violence/NN ,/, breakups/NNS ,/, abandoned/VBN puppies/NNS ,/, sweet/JJ kisses/NNS and/CC words/NNS charged/VBN with/IN all/DT kinds/NNS of/IN meanings/NNS ./. 
+the/DT most/RBS popular/JJ movie/NN in/IN india/NNP this/DT summer/NN is/VBZ about/IN a/DT toilet/NN ./. 
+it/PRP nearly/RB causes/VBZ a/DT divorce/NN ./. 
+bargain/NN hunters/NNS have/VBP begun/VBN to/TO pay/VB close/JJ attention/NN to/IN emerging/VBG market/NN stocks/NNS ./. 
+they/PRP are/VBP a/DT little/JJ late/JJ to/IN the/DT game/NN ./. 
+CD/CD new/JJ drug/NN promises/NNS to/TO stop/VB cancer/NN from/IN spreading/VBG to/IN other/JJ organs/NNS ./. 
+another/DT would/MD treat/VB blood/NN cancer/NN ./. 
