@@ -1,0 +1,33 @@
+
+Family: gaussian 
+Link function: identity 
+
+Formula:
+log(RT) ~ s(Subject, bs = "fs") + s(Trial, bs = "fs") + s(procWordID, 
+    bs = "fs") + s(Vocab_Competence.Acc) + s(Comp_Competence.Acc) + 
+    SentPos + s(WordPos) + s(LogFreq) + s(WordLength) + ti(LogFreq, 
+    WordLength)
+
+Parametric coefficients:
+             Estimate Std. Error t value Pr(>|t|)    
+(Intercept)  5.873834   0.049452 118.779   <2e-16 ***
+SentPos2    -0.033428   0.003591  -9.309   <2e-16 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Approximate significance of smooth terms:
+                            edf  Ref.df        F p-value    
+s(Subject)               31.970  32.000 1724.666  <2e-16 ***
+s(Trial)                 61.068  62.000  178.402  <2e-16 ***
+s(procWordID)           455.179 687.000    2.722  <2e-16 ***
+s(Vocab_Competence.Acc)   1.000   1.000    0.035  0.8523    
+s(Comp_Competence.Acc)    1.000   1.000    0.445  0.5048    
+s(WordPos)                6.275   7.150   52.771  <2e-16 ***
+s(LogFreq)                1.001   1.001    2.999  0.0832 .  
+s(WordLength)             1.001   1.001   41.240  <2e-16 ***
+ti(LogFreq,WordLength)    3.522   3.894    2.175  0.0662 .  
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+R-sq.(adj) =  0.513   Deviance explained = 51.9%
+-ML = 9854.5  Scale est. = 0.08968   n = 43046

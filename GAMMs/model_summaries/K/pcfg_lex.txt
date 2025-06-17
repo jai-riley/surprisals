@@ -1,0 +1,45 @@
+
+Family: gaussian 
+Link function: identity 
+
+Formula:
+log(RT) ~ s(Subject, bs = "fs") + s(Trial, bs = "fs") + s(procWordID, 
+    bs = "fs") + s(Vocab_Competence.Acc) + s(Comp_Competence.Acc) + 
+    SentPos + s(WordPos) + s(LogFreq) + s(WordLength) + ti(LogFreq, 
+    WordLength) + s(PCFG_lex_surp) + ti(PCFG_lex_surp, WordLength) + 
+    ti(PCFG_lex_surp, LogFreq) + ti(PCFG_lex_surp, WordPos) + 
+    ti(PCFG_lex_surp, LogFreqPrev1) + ti(PCFG_lex_surp, PCFG_lex_surpPrev1) + 
+    SentPos:PCFG_lex_surp
+
+Parametric coefficients:
+                        Estimate Std. Error t value Pr(>|t|)    
+(Intercept)             0.000000   0.000000     NaN      NaN    
+SentPos2               -0.017147   0.005784  -2.964  0.00304 ** 
+SentPos1:PCFG_lex_surp  1.132123   0.010687 105.933  < 2e-16 ***
+SentPos2:PCFG_lex_surp  1.135730   0.010736 105.792  < 2e-16 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Approximate significance of smooth terms:
+                                         edf  Ref.df         F  p-value    
+s(Subject)                            24.981  25.000  1953.012  < 2e-16 ***
+s(Trial)                              60.912  62.000   135.575  < 2e-16 ***
+s(procWordID)                        384.670 687.000     1.769  < 2e-16 ***
+s(Vocab_Competence.Acc)                1.000   1.000     0.003 0.959684    
+s(Comp_Competence.Acc)                 1.000   1.000     0.179 0.672195    
+s(WordPos)                             6.265   7.135    18.569  < 2e-16 ***
+s(LogFreq)                             1.000   1.000     1.112 0.291697    
+s(WordLength)                          1.000   1.000    14.022 0.000181 ***
+ti(LogFreq,WordLength)                 1.000   1.001     0.433 0.510717    
+s(PCFG_lex_surp)                       1.000   1.000 10994.823  < 2e-16 ***
+ti(PCFG_lex_surp,WordLength)           1.001   1.001     0.084 0.772760    
+ti(PCFG_lex_surp,LogFreq)              1.001   1.001     0.225 0.636243    
+ti(PCFG_lex_surp,WordPos)              2.852   3.248     4.827 0.001421 ** 
+ti(PCFG_lex_surp,LogFreqPrev1)         5.628   7.088     2.682 0.009318 ** 
+ti(PCFG_lex_surp,PCFG_lex_surpPrev1)   4.344   5.573     1.526 0.190213    
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Rank: 935/936
+R-sq.(adj) =  0.545   Deviance explained = 55.2%
+-ML = 4162.5  Scale est. = 0.071934  n = 34978

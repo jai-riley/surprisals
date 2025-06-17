@@ -1,0 +1,45 @@
+
+Family: gaussian 
+Link function: identity 
+
+Formula:
+log(RT) ~ s(Subject, bs = "fs") + s(Trial, bs = "fs") + s(procWordID, 
+    bs = "fs") + s(Vocab_Competence.Acc) + s(Comp_Competence.Acc) + 
+    SentPos + s(WordPos) + s(LogFreq) + s(WordLength) + ti(LogFreq, 
+    WordLength) + s(RNNG_word_surp) + ti(RNNG_word_surp, WordLength) + 
+    ti(RNNG_word_surp, LogFreq) + ti(RNNG_word_surp, WordPos) + 
+    ti(RNNG_word_surp, LogFreqPrev1) + ti(RNNG_word_surp, RNNG_word_surpPrev1) + 
+    SentPos:RNNG_word_surp
+
+Parametric coefficients:
+                        Estimate Std. Error t value Pr(>|t|)    
+(Intercept)             0.000000   0.000000     NaN      NaN    
+SentPos2                0.009555   0.005628   1.698   0.0896 .  
+SentPos1:RNNG_word_surp 0.850806   0.005108 166.559   <2e-16 ***
+SentPos2:RNNG_word_surp 0.853314   0.005166 165.170   <2e-16 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Approximate significance of smooth terms:
+                                           edf  Ref.df         F  p-value    
+s(Subject)                              29.960  30.000  1076.947  < 2e-16 ***
+s(Trial)                                61.427  62.000   216.353  < 2e-16 ***
+s(procWordID)                          505.497 687.000     3.735  < 2e-16 ***
+s(Vocab_Competence.Acc)                  1.000   1.000     6.691  0.00969 ** 
+s(Comp_Competence.Acc)                   1.000   1.000     0.006  0.93604    
+s(WordPos)                               7.997   8.532    16.961  < 2e-16 ***
+s(LogFreq)                               1.000   1.000     0.175  0.67568    
+s(WordLength)                            1.000   1.000     7.130  0.00758 ** 
+ti(LogFreq,WordLength)                   1.000   1.000     2.105  0.14684    
+s(RNNG_word_surp)                        1.000   1.000 26182.814  < 2e-16 ***
+ti(RNNG_word_surp,WordLength)            2.882   3.154     2.843  0.03617 *  
+ti(RNNG_word_surp,LogFreq)               3.489   4.071     3.736  0.00470 ** 
+ti(RNNG_word_surp,WordPos)               5.771   6.946     3.155  0.00248 ** 
+ti(RNNG_word_surp,LogFreqPrev1)          8.811  10.249     4.236 1.17e-05 ***
+ti(RNNG_word_surp,RNNG_word_surpPrev1)   9.350  10.514     6.013  < 2e-16 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Rank: 940/941
+R-sq.(adj) =  0.479   Deviance explained = 48.7%
+-ML = 1258.2  Scale est. = 0.059737  n = 43396

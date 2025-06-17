@@ -1,0 +1,3 @@
+python /Users/jairiley/Desktop/BOW_Ngrams/Ngram/compute_bow_surprisals.py --type pos --n 5 --target /Users/jairiley/Desktop/BOW_Ngrams/corpus/wiki_test_pos.txt --savefile /Users/jairiley/Desktop/BOW_Ngrams/surprisals/wiki_test_pos_5_bow.csv
+
+python /Users/jairiley/Desktop/BOW_Ngrams/Ngrams/compute_surprisals.py --type words --n 6 --target /Users/jairiley/Desktop/BOW_Ngrams/corpus/wiki_test_word_pos.txt --savefile /Users/jairiley/Desktop/BOW_Ngrams/surprisals/wiki_test_word_pos_6.csv

@@ -1,0 +1,45 @@
+
+Family: gaussian 
+Link function: identity 
+
+Formula:
+log(RT) ~ s(Subject, bs = "fs") + s(Trial, bs = "fs") + s(procWordID, 
+    bs = "fs") + s(Vocab_Competence.Acc) + s(Comp_Competence.Acc) + 
+    SentPos + s(WordPos) + s(LogFreq) + s(WordLength) + ti(LogFreq, 
+    WordLength) + s(n_gram_POS_surp) + ti(n_gram_POS_surp, WordLength) + 
+    ti(n_gram_POS_surp, LogFreq) + ti(n_gram_POS_surp, WordPos) + 
+    ti(n_gram_POS_surp, LogFreqPrev1) + ti(n_gram_POS_surp, n_gram_POS_surpPrev1) + 
+    SentPos:n_gram_POS_surp
+
+Parametric coefficients:
+                         Estimate Std. Error t value Pr(>|t|)    
+(Intercept)               0.00000    0.00000     NaN      NaN    
+SentPos2                  0.01878    0.00552   3.403 0.000668 ***
+SentPos1:n_gram_POS_surp  2.44803    0.02107 116.192  < 2e-16 ***
+SentPos2:n_gram_POS_surp  2.44375    0.02116 115.484  < 2e-16 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Approximate significance of smooth terms:
+                                             edf  Ref.df         F  p-value    
+s(Subject)                                40.976  41.000  2773.971  < 2e-16 ***
+s(Trial)                                  61.491  62.000   458.190  < 2e-16 ***
+s(procWordID)                            494.772 687.000     3.266  < 2e-16 ***
+s(Vocab_Competence.Acc)                    1.000   1.000     0.001 0.979843    
+s(Comp_Competence.Acc)                     1.000   1.000     7.942 0.004829 ** 
+s(WordPos)                                 7.914   8.481    38.094  < 2e-16 ***
+s(LogFreq)                                 1.000   1.000     4.186 0.040733 *  
+s(WordLength)                              1.000   1.000    12.584 0.000389 ***
+ti(LogFreq,WordLength)                     1.345   1.403     0.503 0.682017    
+s(n_gram_POS_surp)                         1.000   1.000 13343.707  < 2e-16 ***
+ti(n_gram_POS_surp,WordLength)             2.907   3.735     1.150 0.305611    
+ti(n_gram_POS_surp,LogFreq)                2.670   3.287     0.875 0.452376    
+ti(n_gram_POS_surp,WordPos)                1.001   1.001     0.132 0.717057    
+ti(n_gram_POS_surp,LogFreqPrev1)           3.520   4.326     2.688 0.026280 *  
+ti(n_gram_POS_surp,n_gram_POS_surpPrev1)   8.422   9.607     5.050 5.55e-06 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Rank: 951/952
+R-sq.(adj) =  0.655   Deviance explained = 65.9%
+-ML = 6945.9  Scale est. = 0.072863  n = 55896
